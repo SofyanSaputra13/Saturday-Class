@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    color: black;
+}
+
+.pertama {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+#kedua {
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+}
+
+.ketiga {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+}

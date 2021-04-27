@@ -1,0 +1,188 @@
+<!-- Tag Definisi Standar HTML -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Tag Definisi Character Set UTF-8 -->
+    <meta charset="UTF-8" />
+    <!-- Tag Definisi Viewport : Supaya Responsive di Mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tag Definisi Judul Halaman Website -->
+    <title>Saturday Class</title>
+
+    <!-- Styling CSS : Internal -->
+    <style>
+      /* . = class */
+      /* # = id */
+      #div-pertama {
+        display: block;
+        width: 300px;
+        height: 300px;
+        background-color: blue;
+      }
+
+      .div-kedua {
+        display: block;
+        width: 300px;
+        height: 300px;
+        background-color: red;
+      }
+
+      .green {
+        background-color: green;
+      }
+
+      .aqua {
+        background-color: aqua;
+      }
+    </style>
+
+    <!-- Styling CSS : Eksternal -->
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <!-- Definisi Bagian Body -->
+  <body>
+    <!-- Text Heading -->
+    <h1>Text Heading</h1>
+    <h2>Text Heading</h2>
+    <h3>Text Heading</h3>
+    <h4>Text Heading</h4>
+    <h5>Text Heading</h5>
+    <h6>Text Heading</h6>
+    <p>Paragraph</p>
+
+    <!-- Text Formatting -->
+    <p>Ini adalah <b> teks tebal</b></p>
+    <br />
+    <p>Ini adalah <i> teks miring</i></p>
+    <br />
+    <p>Ini adalah <u> teks bergaris bawah</u></p>
+    <br />
+    <strong>Teks Tebal : STRONG</strong><br />
+    <em>Teks Miring : Emphasized</em><br />
+    <del>Teks Bergaris : Delete</del><br />
+
+    <mark>Ini adalah tulisan</mark><br />
+
+    2<sup>2 diatas</sup><br />
+    3<sub>1 dibawah</sub><br />
+
+    <!-- Link -->
+    <a href="https://google.com" target="_blank">Ini Google</a>
+
+    <!-- Comment HTML (Ini adalah contoh Komentar HTML)-->
+
+    <!-- Form -->
+    <form action="http://google.com" method="GET">
+      <label>Username :</label>
+      <br />
+      <br />
+      <input type="text" name="username" /><br />
+      <label>Password :</label><br />
+      <input type="password" name="password" />
+      <br />
+
+      <input type="radio" name="umur" /><label>17</label>
+      <input type="radio" name="umur" /><label>18</label>
+      <input type="radio" name="umur" /><label>19</label>
+      <br />
+
+      <input type="checkbox" name="warna" /><label>Biru</label>
+      <input type="checkbox" name="warna" /><label>Hijau</label>
+      <input type="checkbox" name="warna" /><label>Kuning</label>
+
+      <button>Kirim</button>
+    </form>
+    <!-- Color HTML -->
+    <!-- Styling CSS : Inline -->
+    <p style="color: rgb(200, 100, 30);">Penggunaan Warna</p>
+    <p style="color: rgba(200, 100, 30, 0.5);">Penggunaan Warna</p>
+    <p style="color: #000;">Penggunaan Warna</p>
+    <!-- Warna : 
+    rgb(200, 100, 30)
+    rgba(200, 100, 30, 0.5)
+    HEX : #fff & #ffffff -->
+
+    <!-- Image -->
+    <img
+      src="https://upload.wikimedia.org/wikipedia/id/thumb/5/5d/Windows_10.png/300px-Windows_10.png"
+      width="200px"
+      height="100px"
+      alt
+    />
+    <img src="windowss.png" alt="Windows 10" />
+    <br />
+    <br />
+    <br />
+    <!-- Table -->
+    <table border="1">
+      <thead>
+        <th>Kolom 1</th>
+        <th>Kolom 2</th>
+        <th>Kolom 3</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Baris 1 Kolom 1</td>
+          <td>Baris 1 Kolom 2</td>
+          <td>Baris 1 Kolom 3</td>
+        </tr>
+        <tr>
+          <td>Baris 2 Kolom 1</td>
+          <td>Baris 2 Kolom 2</td>
+          <td>Baris 2 Kolom 3</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>End Kolom 1</td>
+          <td>End 1 Kolom 2</td>
+          <td>End 1 Kolom 3</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- List -->
+    <!-- Order List -->
+    <ol type="i">
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
+    </ol>
+    <!-- Unorder List -->
+    <ul type="disc | circle | square | none">
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
+    </ul>
+
+    <!-- Class & ID & Name -->
+
+    <!-- ID : Hanya boleh didefinisikan 1 x -->
+    <div id="div-pertama"></div>
+
+    <!-- Class : Boleh berulang kali -->
+    <div class="div-kedua"></div>
+    <div class="div-kedua green"></div>
+    <div class="div-kedua aqua"></div>
+
+    <input type="text" name="text-1" />
+
+    <!-- Iframes -->
+    <iframe src="https://www.w3schools.com/html/html_lists.asp"></iframe>
+    <iframe src="https://www.youtube.com/watch?v=jnLvXqPa-cI"></iframe>
+
+    <!-- Styling -->
+    <!-- Internal -->
+
+    <!-- Eksternal -->
+    <!-- Inline -->
+  </body>
+  <!-- JS Internal -->
+  <script>
+    // Ngoding JS Disini
+    console.log("Hello World");
+  </script>
+
+  <!-- JS Eksternal -->
+  <script src="index.js"></script>
+</html>
